@@ -1,5 +1,4 @@
-// server page of our 
-// require('dotenv').config()
+
 const express=require('express') //express is function so we have to call it so that it give me all methods
 const app=express() //app will get all methods of express
 const ejs=require('ejs')

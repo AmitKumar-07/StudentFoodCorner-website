@@ -341,7 +341,7 @@ h6 {
 }
 
 #footer {
-  height: 90px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   background-color: #263238;
