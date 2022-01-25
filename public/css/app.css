@@ -341,10 +341,10 @@ h6 {
 }
 
 #footer {
-  height: 180px;
+  height: 280px;
   display: flex;
   flex-direction: column;
-  background-color: #263238;
+  background-color: #253137;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -442,7 +442,7 @@ section.login a:hover {
 }
 
 .pagenotfound {
-  min-height: calc(100vh - 230px);
+  min-height: calc(100vh - 130px);
 }
 
 .noty_theme__mint {

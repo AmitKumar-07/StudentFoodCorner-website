@@ -39,10 +39,10 @@ div nav li a {
 }
 // foooter
 #footer{
-    height: 180px;
+    height: 280px;
     display: flex;
     flex-direction: column;
-    background-color:#263238;
+    background-color:hsl(200, 19%, 18%);
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -129,7 +129,7 @@ section.login {
     }
 }
 .pagenotfound {
-    min-height: calc(100vh - 230px);
+    min-height: calc(100vh - 130px);
 }
 // section.page-wrap {
 //     min-height: calc(100 vh);
