@@ -1,0 +1,31 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node server.js",
+    "dev": "nodemon server.js",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-ejs-layouts": "^2.5.1",
+    "noty": "^3.2.0-beta-deprecated",
+    "path": "^0.12.7",
+    "tailwindcss": "^3.0.15"
+  },
+  "devDependencies": {
+    "laravel-mix": "5.0.4",
+    "nodemon": "^2.0.15",
+    "postcss": "8.1",
+    "resolve-url-loader": "3.1.2",
+    "sass": "1.32.8",
+    "sass-loader": "10.1.1",
+    "vue-template-compiler": "2.6.12"
+  }
+}
