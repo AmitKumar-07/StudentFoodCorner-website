@@ -354,6 +354,15 @@ h6 {
   justify-content: center;
 }
 
+#errorpage {
+  display: flex;
+  flex-direction: column;
+  background-color: #F8F8F8;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
 #footer p {
   color: #CCC;
 }

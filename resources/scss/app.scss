@@ -53,6 +53,15 @@ div nav li a {
     justify-content: center;
   
 }
+#errorpage{
+    display: flex;
+    flex-direction: column;
+    background-color:$secondary;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  
+}
 #footer  p{
     color:#CCC;
 }
@@ -126,6 +135,7 @@ div nav li a {
         outline: none;
     }
 }
+
 
 
 section.cart {
