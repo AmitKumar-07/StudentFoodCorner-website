@@ -37,6 +37,11 @@ div nav li a {
     border: 2px solid red;
     border-radius: 8px
 }
+#modi {
+    text-align: center;
+    // align-items: center;
+    // justify-content: center;
+}
 // foooter
 #footer{
     height: 280px;
@@ -91,7 +96,17 @@ div nav li a {
     border-radius: 10px;
     padding-top:8px;
 }
-
+.arrange {
+    background-color:$primary;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    border: 2px solid black;
+    color: white;
+    border-radius: 10px;
+    padding-top:8px;
+}
 .minimumHeight{
     min-height: 534px;;
 }
@@ -111,6 +126,7 @@ div nav li a {
         outline: none;
     }
 }
+
 
 section.cart {
     background: $secondary;
@@ -260,7 +276,12 @@ section.status {
        white-space: nowrap;
     }
 }
-
+// @media(max-width:1060px) {
+//     .arrange {
+//         height: 40px;
+//     }
+    
+// }
 @media(max-width: 768px) {
     .status-box ul li span:before {
         font-size: 34px;
